@@ -141,8 +141,8 @@
   .buy{
     border:2px solid #ff1a75;
     background:#ff1a75;
-    width: 100px;
-    font-size: 20px;
+    width: 95px;
+    font-size: 18px;
     font-family: Calibri;
     border-radius: 10px;
     padding: 10px 25px;
@@ -151,8 +151,8 @@
   .cart{
     border:2px solid #ff1a75;
     background-color: white;
-    width: 100px;
-    font-size: 20px;
+    width: 95px;
+    font-size: 18px;
     font-family: Calibri;
     border-radius: 10px;
     padding: 10px 15px;
@@ -175,7 +175,7 @@
   font-weight:600;
   font-family:Calibri;
   color:black;
-  padding:50px 8px 0px;
+  padding:65px 8px 0px;
   font-size:25px;
   letter-spacing:4px;
   }
