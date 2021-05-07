@@ -91,8 +91,8 @@ a:link {text-decoration:none;}
     color:black;
   }
   .card:hover {
-    background-color:;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color:none;
+    box-shadow:none;
   }
 }
 
