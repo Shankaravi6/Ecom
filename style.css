@@ -34,7 +34,7 @@ letter-spacing:4px;
   box-sizing: border-box;
 }
 
-.c-row {margin: 0 0;}
+.c-row {margin: 20px 50px;}
 
 .c-row:after {
   content: "";
@@ -49,7 +49,7 @@ letter-spacing:4px;
 }
 
 .card {
-  padding: 15px;
+  padding: 25px;
   text-align:left;
   color:black;
 }
@@ -71,14 +71,28 @@ a:active {text-decoration:none;}
 a:link {text-decoration:none;}
 
 @media screen and (max-width: 600px) {
-  .c-column {
-    width:50%;
-    margin-left: 0px;
-    overflow:hidden;
-    display: block;
-    margin-bottom:5px;
+  .c-row {margin: 0 0;}
+
+  .c-row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
+  .c-column {
+    float: left;
+    width: 50%;
+    padding: 0 5px;
+  }
+
+  .card {
+    padding: 15px;
+    text-align:left;
+    color:black;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
 }
 
 /*Cart Content*/
@@ -96,7 +110,7 @@ text-decoration: line-through;
   font-weight: bold;
   color:white;
   padding:10px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 .rev-mem {
   color:violet;
